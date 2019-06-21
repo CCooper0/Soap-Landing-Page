@@ -1,0 +1,16 @@
+{
+  "name": "Soap-Landing-Page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://ccooper0.github.io/Soap-Landing-Page",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
