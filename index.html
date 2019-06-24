@@ -8,6 +8,51 @@
     <title>Soap Landing Page</title>
   </head>
   <body>
-    <h1>You've never smelled better</h1>
+    <div id="nav-overlay">
+      <div class="container flex-container">
+        <header class="main-header">
+          <h1>CreamySoap</h1>
+
+          <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+          </div>
+        </header>
+
+        <nav id="navbar">
+          <ul class="nav" id="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Cart</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="text-overlay">
+        <div class="text-box">
+          <h1>You've never smelled better</h1>
+          <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+            ratione eum velit rerum repudiandae sapiente.
+          </h2>
+        </div>
+
+        <div class="flex-container">
+          <button type="button" class="button">
+            Subscribe to our newsletter
+          </button>
+          <button type="button" class="button">
+            Buy soap
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <footer></footer>
   </body>
 </html>
